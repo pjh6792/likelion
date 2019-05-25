@@ -1,62 +1,42 @@
 <!DOCTYPE html>
 <!-- HTML5 Hello world by kirupa - http://www.kirupa.com/html5/getting_your_feet_wet_html5_pg1.htm -->
-<html lang="en-us">
+<html lang="ko-kr">
 
 <head>
 <meta charset="utf-8">
 <title>Hello...</title>
-<style type="text/css">
-#mainContent {
-	font-family: Arial, Helvetica, sans-serif;
-	font-size: xx-large;
-	font-weight: bold;
-	background-color: #E3F0FB;
-	border-radius: 4px;
-	padding: 10px;
-	text-align: center;
-}
-.buttonStyle {
-	border-radius: 4px;
-	border: thin solid #F0E020;
-	padding: 5px;
-	background-color: #F8F094;
-	font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
-	font-weight: bold;
-	color: #663300;
-	width: 75px;
-}
-
-.buttonStyle:hover {
-	border: thin solid #FFCC00;
-	background-color: #FCF9D6;
-	color: #996633;
-	cursor: pointer;
-}
-.buttonStyle:active {
-	border: thin solid #99CC00;
-	background-color: #F5FFD2;
-	color: #669900;
-	cursor: pointer;
-}
-
-</style>
+<link rel="stylesheet" href="style.css">
 </head>
 
 <body>
-<div id="mainContent">
-<p id="helloText">?</p>
-<button id="clickButton" class="buttonStyle">click me</button>
-</div>
-<script> 
-var myButton = document.getElementById("clickButton");
-var myText = document.getElementById("helloText");
+	<center><h2>서강 학슐랭</h2></center>
+	<div class="cate_head">
+		<div class="cate1">한식</div>
+		<div class="cate2">중식</div>
+		<div class="cate3">일식</div>
+		<div class="cate4">양식</div>
+		<div class="cate5">기타</div>
 
-myButton.addEventListener('click', doSomething, false)
+	</div>
+	<div class="cate_contents">
+	  <div class="sub_head">식당 건물</div>
+	  <div class="reco_head">리뷰</div>
+	  <div class="sub_cate">
+	  	<ul>
+	  		<li>엠마오관</li>
+	  		<li>우정관</li>
+	  		<li>곤플</li>
+	  		<li>기타</li>
 
-function doSomething() {
-	myText.textContent = "hello, world!";
-}
-</script>
-
+	  	</ul>
+	  </div>
+	  <div class="reco_main"><img src="https://taling.me/Content/Uploads/Cover/04fcb4d47a8f78090a0250c093b1e80d573c3257.jpg"></div>
+	  <div class="reco_sub1"><img src="https://taling.me/Content/Uploads/Cover/04fcb4d47a8f78090a0250c093b1e80d573c3257.jpg"> 리뷰1</div>
+	  <div class="reco_sub2"><img src="https://taling.me/Content/Uploads/Cover/04fcb4d47a8f78090a0250c093b1e80d573c3257.jpg">리뷰2</div>
+	  <div class="reco_sub3"><img src="https://taling.me/Content/Uploads/Cover/04fcb4d47a8f78090a0250c093b1e80d573c3257.jpg">리뷰3</div>
+	</div>
+	<p>
+	<p>
+	<h4>안녕하세요! 서강대 멋쟁이사자처럼 7기 박재형입니다</h4>
 </body>
 </html>
